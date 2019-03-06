@@ -4,10 +4,8 @@ Autoware package based on Darknet that supports Yolov3 and Yolov2 image detector
 
 ### Requirements
 
-* NVIDIA GPU with CUDA installed
-* Pretrained [YOLOv3](https://pjreddie.com/media/files/yolov3.weights) or
- [YOLOv2](https://pjreddie.com/media/files/yolov2.weights) model on COCO dataset,
- Models found on the [YOLO website](https://pjreddie.com/darknet/yolo/).
+* NVIDIA GPU with CUDA installed also no GPU using CPU
+
 * The weights file must be placed in `vision_darknet_detect/darknet/data/`.
 
 ### How to launch
